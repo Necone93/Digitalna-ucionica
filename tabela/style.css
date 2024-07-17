@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+table {
+  background-color: white;
+  border-collapse: collapse;
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 50%;
+}
+#heading {
+  background-color: rgb(108, 153, 237);
+}
+th,
+td {
+  border: 1px solid gray;
+  text-align: center;
+  padding: 10px;
+}
+#parni {
+  background-color: lightgray;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(108, 153, 237);
+}
+#footer {
+  background-color: rgba(62, 62, 62, 0.5);
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0;
+  position: absolute;
+}
+
+.prvi {
+  display: inline-block;
+}
+.drugi {
+  display: inline-block;
+  color: white;
+  margin-left: 250px;
+}
+.treci {
+  display: inline-block;
+  color: white;
+  margin-left: 250px;
+}
+ul li {
+  display: inline-block;
+  margin-right: 10px;
+  border-right: 1px solid grey;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
